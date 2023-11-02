@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Ramabhadra&family=Roboto:wght@400;700&display=swap');
+
+.todo {
+    background: url(../img/zapatos.png);
+    max-width: 1400px;
+    background-position: 0px 217px;
+    background-repeat: no-repeat;
+    margin: auto;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barritas {
+    display: flex;
+    flex: 0;
+    justify-content: flex-start;
+    margin: 48px 43px;
+}
+
+.aglet {
+    display: flex;
+    flex: 1.1;
+    justify-content: right;
+    align-items: center;
+}
+
+.text {
+    color: #000;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7.2px;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.text span {
+    color: #FFF;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7.2px;
+    background: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-top: 2px;
+    padding-left: 6px;
+}
+
+.botones {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+    margin-right: 78px;
+}
+
+.boton1 {
+    color: inherit;
+    text-decoration: none; 
+    margin-right: 50px;
+}
+
+.boton2 {
+    color: #FFF; 
+    text-decoration: none;
+    padding: 10px;
+    background: #4D69FA; 
+}
+
+.boton3 {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 15px; 
+}
+
+.boton1:hover {
+    color: #919191;
+}
+
+.boton2:hover {
+    color: #424242;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 622px;
+    height: 1024px;
+    background: #FFF;
+}
+
+.sneaker {
+    display: flex;
+    margin: 0 auto;
+    width: 480.075px;
+    height: 119.69px;
+}
+
+.world {
+    margin: 0 auto;
+    -webkit-text-stroke-width: 4px; 
+    -webkit-text-stroke-color: black;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 20% */
+    letter-spacing: 9.9px;
+}
+
+.waves {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 35px;
+    stroke-width: 2px;
+    stroke: #4F4F4F;
+    width: 110px;
+    height: 18px;
+}
+
+.lorem {
+    margin: 0 auto;
+    margin-top: 25px;
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    width: 350px;
+}
+
+.mi-boton-h {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.mi-boton {
+    background-color: #ffffff; 
+    border: 2px solid #000; 
+    color: #000000; 
+    padding: 30px 50px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;  
+    cursor: pointer; 
+    border-radius: 8px;
+}
+
+.mi-boton:hover {
+    background-color: #949494; /
+}
+
+.redes {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+.flecha {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+}
