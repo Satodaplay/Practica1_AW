@@ -106,6 +106,7 @@ a {
 .a2 {
     flex: 0.86;
     background: url(../img/pexels-philip-boakye-2614384-removebg-preview\ 1.png);
+    background-repeat: no-repeat;
 }
 
 .musica {
@@ -127,6 +128,7 @@ a {
 }
 
 .nombre {
+    float: right;
     color: #FFF;
     font-family: 'Red Hat Text', sans-serif;
     font-size: 20px;
